@@ -54,4 +54,4 @@ With that said, when we run **npx webpack**, which will take our script at **src
 
 View [Modules](https://webpack.js.org/guides/getting-started/#modules) for more information!
 
-## 4. Webpack.config
+## 4. Webpack Configuration
