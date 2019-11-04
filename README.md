@@ -12,17 +12,25 @@ The plan is to learn as much as I can and document my trip down the webpack lane
 
 The first thing I did was to create a directory.
 Navigate to your desired folder and do the following : 
-
-**mkdir webpack-demo**
+> **mkdir webpack-demo**
 
 Navigate into your created folder :
-
-**cd webpack-demo**
+> **cd webpack-demo**
 
 Initialize your package.json with : 
-
-**npm init -y**
+> **npm init -y**
 
 And lastly, we need to install **webpack** locally, which will initially install the webpack-cli as well. 
+> **npm install webpack webpack-cli --save-dev** 
 
-**npm install webpack webpack-cli --save-dev** 
+## Creating a bundle
+
+After setting up my directory and file structure, I had to separate the **/dist** from the **/src** - or better yet, *distribution* from *source* files. 
+
+Afterwards, my folder structure looked like : 
+
+> package.json
+  /dist 
+    index.html
+  /src 
+    index.js
