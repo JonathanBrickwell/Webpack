@@ -23,7 +23,7 @@ Initialize your package.json with :
 And lastly, we need to install **webpack** locally, which will initially install the webpack-cli as well. 
 > **npm install webpack webpack-cli --save-dev** 
 
-## Creating a bundle
+## 2. Creating a bundle
 
 After setting up my directory and file structure, I had to separate the **/dist** from the **/src** - or better yet, *distribution* from *source* files. 
 
@@ -37,3 +37,21 @@ Afterwards, my folder structure looked like :
   |- /src
     |- index.js
 ```
+
+We're going to install **lodash** library as a dependency, it'll help us to execute certain JavaScript functionalities with ease.
+
+```npm install --save lodash```
+
+> When installing a package that will be bundled into your production bundle, you should use npm install --save. If you're installing a package for development purposes (e.g. a linter, testing libraries, etc.) then you should use npm install --save-dev. More information can be found in the npm documentation.
+
+After this, the only script we need in our index.html is : 
+
+> <script src="main.js"></script>
+
+With that said, when we run **npx webpack**, which will take our script at **src/index.js** as the entry point, and will generate **dist/main.js** as the output.
+
+## 3. Modules
+
+View [Modules](https://webpack.js.org/guides/getting-started/#modules) for more information!
+
+## 4. Webpack.config
