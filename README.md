@@ -30,7 +30,7 @@ After setting up my directory and file structure, I had to separate the **/dist*
 Afterwards, my folder structure looked like : 
 
 > package.json
-  /dist 
-    index.html
-  /src 
-    index.js
+> /dist 
+> index.html
+> /src 
+> index.js
